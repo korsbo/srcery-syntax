@@ -28,6 +28,6 @@
        ||        ccc/       
        ||                
 
-A port of Roosta's [vim-srcery](https://github.com/roosta/vim-srcery) for Atom! Best used with a twenty-sided dice on your bedroom floor surrounded by snacks and graph paper.
+A thoughtful port of Roosta's [vim-srcery](https://github.com/roosta/vim-srcery) for Atom! Best used with twenty-sided dice on your bedroom floor surrounded by snacks and graph paper.
 
 ![HO, A MIGHTY SCREENSHOT](https://github.com/kudabux/srcery-syntax/blob/master/srcery-syntax-screenshot.png)
