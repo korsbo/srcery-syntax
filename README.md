@@ -10,4 +10,4 @@
 
 
 
-![A screenshot of my theme](/)
+![A screenshot of my theme](https://github.com/kudabux/srcery-syntax/blob/master/srcery-syntax-screenshot.png)
