@@ -43,7 +43,7 @@ atom-text-editor {
   }
 
   .cursor {
-    color: @syntax-cursor-color;
+    color: @syntax-text-color;
   }
 
   .selection .region {
@@ -56,12 +56,11 @@ atom-text-editor {
 
 .syntax--comment {
   color: @light-gray;
+  font-style: italic;
   &.syntax--block.syntax--css {
     color: @light-gray;
+    font-style: italic;
   }
-}
-.syntax--css {
-  color: @cyan;
 }
 .syntax--keyword {
   color: @red;
@@ -89,7 +88,7 @@ atom-text-editor {
   color: @red;
 
   &.syntax--type.syntax--extends.syntax--js {
-    color: @pink;
+    color: @yellow;
   }
   &.syntax--type.syntax--function {
     color: @syntax-text-color;
@@ -100,15 +99,15 @@ atom-text-editor {
   color: @pink;
 
   &.syntax--character.syntax--escape {
-    color: @cyan;
+    color: @light-gray;
   }
 
   &.syntax--numeric {
-    color: @pink;
+    color: @green;
   }
 
   &.syntax--length {
-    color: @yellow;
+    color: @pink;
   }
 
   &.syntax--other.syntax--color {
@@ -124,6 +123,10 @@ atom-text-editor {
 
   color: @cyan;
 
+  &.syntax--language.syntax--this {
+    color: @yellow;
+    font-weight: bold
+  }
   &.syntax--interpolation {
     color: darken(@cyan, 10%);
   }
@@ -131,6 +134,7 @@ atom-text-editor {
   &.syntax--parameter.syntax--function {
     color: @syntax-text-color;
   }
+
 }
 
 .syntax--invalid.syntax--illegal {
@@ -155,18 +159,20 @@ atom-text-editor {
   }
 
   &.syntax--quoted.syntax--double.syntax--json {
-    color: @yellow;
+    color: @green;
   }
 }
 
 .syntax--punctuation {
+
   &.syntax--separator.syntax--dictionary {
+
     &.syntax--pair {
-      color: @yellow;
+      color: @light-gray;
     }
 
     &.syntax--key-value {
-      color: @yellow;
+      color: @light-gray;
     }
   }
 
@@ -174,7 +180,7 @@ atom-text-editor {
     color: @light-gray;
   }
   &.syntax--terminator.syntax--rule {
-    color: @syntax-cursor-color;
+    color: @syntax-text-color;
   }
 
   &.syntax--terminator.syntax--statement {
@@ -186,7 +192,7 @@ atom-text-editor {
   }
   &.syntax--definition {
     &.syntax--dictionary.syntax--json {
-      color: @blue;
+      color: @light-gray;
     }
     &.syntax--tag {
       color: @blue;
@@ -219,15 +225,15 @@ atom-text-editor {
   }
 
   &.syntax--section.syntax--property-list.syntax--bracket {
-    color: @blue;
+    color: @light-gray;
   }
 
   &.syntax--section.syntax--embedded {
-    color: darken(@cyan, 10%);
+    color: @syntax-text-color;
   }
 
   &.syntax--class {
-    color: @blue;
+    color: @light-gray;
   }
 
 }
@@ -254,13 +260,17 @@ atom-text-editor {
   }
 
   &.syntax--type.syntax--property-name.syntax--css {
-    color: @green;
+    color: @blue;
   }
 }
 
 .syntax--entity {
   &.syntax--name.syntax--function {
     color: @pink;
+    font-weight: bold;
+    &.syntax--method {
+      color: @green;
+    }
   }
   &.syntax--name {
     &.syntax--tag {
@@ -293,7 +303,7 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--attribute-name {
-    color: @cyan;
+    color: @pink;
 
     &.syntax--id {
       color: @cyan;
@@ -303,7 +313,7 @@ atom-text-editor {
 
 .syntax--meta {
   &.syntax--delimiter {
-    color: @syntax-text-color;
+    color: @light-gray;
   }
   &.syntax--class {
     color: @blue;
@@ -327,7 +337,7 @@ atom-text-editor {
   }
 
   &.syntax--brace {
-    color: @blue;
+    color: @light-gray;
   }
 
   &.syntax--tag.syntax--sgml {
@@ -360,6 +370,10 @@ atom-text-editor {
 
   &.syntax--heading .syntax--punctuation.syntax--definition.syntax--heading {
     color: @cyan;
+  }
+
+  &.syntax--punctuation.syntax--separator.syntax--key-value.syntax--css {
+    color: @light-gray;
   }
 
   &.syntax--inserted {
