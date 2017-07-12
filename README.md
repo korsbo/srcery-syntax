@@ -7,7 +7,27 @@
     /==/\/ _ |==|_  . ,'.\==\.       /|==|_  ,`-._|==|_  . ,'.  \==\-, /     .=.     
     \==\ - , /==/  /\ ,  )`-.`.___.-' /==/ ,     //==/  /\ ,  ) /==/._/     :=; :    
      `--`---'`--`-`--`--'             `--`-----`` `--`-`--`--'  `--`-`       `=`          
+                  _,._      
+      .||,       /_ _\\     
+     \.`',/      |'L'| |    
+     = ,. =      | -,| L    
+     / || \    ,-'\"/,'`.   
+       ||     ,'   `,,. `.  
+       ,|____,' , ,;' \| |  
+      (3|\    _/|/'   _| |  
+       ||/,-''  | >-'' _,\\
+       ||'      ==\ ,-'  ,'
+       ||       |  V \ ,|   
+       ||       |    |` |   
+       ||       |    |   \  
+       ||       |    \    \
+       ||       |     |    \
+       ||       |      \_,-'
+       ||       |___,,--")_\
+       ||         |_|   ccc/
+       ||        ccc/       
+       ||                
 
+A port of Roosta's [vim-srcery](https://github.com/roosta/vim-srcery) for Atom! Best used with a twenty-sided dice on your bedroom floor surrounded by snacks and graph paper.
 
-
-![A screenshot of my theme](https://github.com/kudabux/srcery-syntax/blob/master/srcery-syntax-screenshot.png)
+![HO, A MIGHTY SCREENSHOT](https://github.com/kudabux/srcery-syntax/blob/master/srcery-syntax-screenshot.png)
